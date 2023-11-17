@@ -13,6 +13,5 @@ _start:
     mov rdi, 0
     syscall
 
-section .rotada
     msg: db "Hello World!", 10
     msglen: equ $ - msg
